@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-dz-2"
+version = "0.1.0"
+description = "addresbook"
+authors = ["phenixua <112823718+phenixua@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pygame = "^2.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
